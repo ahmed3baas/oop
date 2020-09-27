@@ -10,6 +10,7 @@ private:
 public:
 	void setName(string n);
 	void setSalary(double s);
+	void setAge(int a);
 	void setDepartmentId(int id);
 
 	string getName();
@@ -17,6 +18,6 @@ public:
 	int getAge();
 	int getDepartmentId();
 	
-	Employee(string n,double s,int a,int id);
+	
 };
 
